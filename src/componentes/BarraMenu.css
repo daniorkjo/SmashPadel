@@ -1,0 +1,74 @@
+#MenuColor {
+    background-color: #B4EEFF ;
+    height: 10vmin;
+}
+
+.AlinearCentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vmin;
+}
+.AlinearElementosCentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FotoFondoAjustada{
+    height: 90vmin;
+}
+.AlinearCentroHorizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.AlinearDerecha {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.ImagenFondo{
+    background-image: url("../imagenes/imagenFondoAclarada.svg");
+    background-repeat: repeat-y;   
+    background-position: center;
+    background-size: cover;
+    height: 100vmin;
+    width: 100%;
+}
+.App-logo {
+    height: 5vmin;
+    pointer-events: none;
+  }
+.DivMitadAnchuraIzq{
+    width: 50%;
+    height: 90vmin;
+    float: left;
+}
+.CardMinimo{
+    width: 30vmin;
+    height: min-content;
+}
+
+.DivMitadAnchuraDer{
+    width: 50%;
+    height: 90vmin;
+    float: right;
+}
+
+.MensajeError {
+    color: red;
+}
+.CuadroPartidos{
+    height: 50vmin;
+    width: 60vmin;
+}
+.CuadroAmistosos{
+    height: 50vmin;
+    width: 60vmin;
+}
+.PantallaCompleta{
+    height: 90vmin;
+    width: 100%;
+}
